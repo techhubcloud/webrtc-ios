@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'WebRTC'
-  s.version          = '1.6.0'
+  s.version          = '1.7.0'
   s.summary          = 'WebRTC iOS XCFramework with customize audio encode/decode'
   s.homepage         = 'https://webrtc.googlesource.com/src'
   
@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.swift_version    = '5.0'
   
   s.source = {
-    :http => 'https://github.com/techhubcloud/webrtc-ios/releases/download/1.4.0/WebRTC.xcframework.zip?raw=1'
+    :http => 'https://github.com/techhubcloud/webrtc-ios/releases/download/1.7.0/WebRTC.xcframework.zip?raw=1'
   }
 
   s.vendored_frameworks = 'WebRTC.xcframework'
